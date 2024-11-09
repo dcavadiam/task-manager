@@ -7,7 +7,7 @@ interface FiltersProps {
 
 export const Filters = ({ setFilter }: FiltersProps) => {
     return (
-        <section className="flex flex-col gap-4 mt-4">
+        <section className="flex flex-col gap-4 mt-4 mb-8">
             <RadioGroup defaultValue="all" className="flex gap-2 flex-wrap"
                 onValueChange={(value) => setFilter(value)}
             >
